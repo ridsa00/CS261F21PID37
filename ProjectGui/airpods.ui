@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>548</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>801</width>
+      <height>531</height>
+     </rect>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>791</width>
+       <height>541</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/images/bf48849e-bba2-478d-b632-9914700de971.jpg);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>482</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(220,220,220,220);</string>
+     </property>
+     <property name="text">
+      <string>Back</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>482</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(220,220,220,220);</string>
+     </property>
+     <property name="text">
+      <string>Save</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>120</y>
+       <width>671</width>
+       <height>341</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-top-left-radius:50px;
+border-top-right-radius:50px;
+border-bottom-left-radius:50px;
+border-bottom-right-radius:50px;
+background-color:rgb(159,159,159,159);</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="tableWidget">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>230</y>
+       <width>561</width>
+       <height>192</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(220,220,220,220);</string>
+     </property>
+     <column>
+      <property name="text">
+       <string>Model</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Colour</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Price</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Rating</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Design</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Body</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Battery</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Chip</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>10</y>
+       <width>181</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:24pt; font-weight:600; color:#ffffff;&quot;&gt;AIR-PODS&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>161</y>
+       <width>241</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(220,220,220,220);</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Insertion sort</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Merge sort</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Bubble sort</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Quick sort</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Bucket sort</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Sleep sort</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Tree sort</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Counting sort</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Radix sort</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="comboBox_2">
+     <property name="geometry">
+      <rect>
+       <x>450</x>
+       <y>160</y>
+       <width>231</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(220,220,220,220);</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Ascending order</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Descending order</string>
+      </property>
+     </item>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="airpod.qrc"/>
+ </resources>
+ <connections/>
+</ui>

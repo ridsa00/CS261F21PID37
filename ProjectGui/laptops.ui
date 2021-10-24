@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>792</width>
+    <height>561</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>791</width>
+      <height>541</height>
+     </rect>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>791</width>
+       <height>541</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/images/laptop.jpg);
+
+backgroung-color:rgba(0,0,0,180);
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>10</y>
+       <width>151</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>16</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:24pt; color:#ffffff;&quot;&gt;LAPTOPS&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>60</y>
+       <width>691</width>
+       <height>471</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-top-left-radius:50px;
+border-top-right-radius:50px;
+border-bottom-left-radius:50px;
+border-bottom-right-radius:50px;
+background-color: rgb(159,159, 159, 159);</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>120</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-top-left-radius:50px;
+border-top-right-radius:50px;
+border-bottom-left-radius:50px;
+border-bottom-right-radius:50px;
+background-color: rgb(190,190, 190, 200);</string>
+     </property>
+     <property name="editable">
+      <bool>false</bool>
+     </property>
+     <property name="currentText">
+      <string>Sorting Algorithms</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Sorting Algorithms</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Insertion Sort</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Merge Sort</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Quick Sort</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Bubble Sort</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Selection Sort</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Bucket Sort</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Tree Sort</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Sleep Sort</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Counting Sort</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Radix Sort</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="comboBox_2">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>120</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-top-left-radius:50px;
+border-top-right-radius:50px;
+border-bottom-left-radius:50px;
+border-bottom-right-radius:50px;
+background-color: rgb(190,190, 190, 200);</string>
+     </property>
+     <property name="editable">
+      <bool>false</bool>
+     </property>
+     <property name="currentText">
+      <string>Sorting Order</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Sorting Order</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Ascending Order</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Decsending order</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QTableWidget" name="tableWidget">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>180</y>
+       <width>611</width>
+       <height>281</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(150,150, 150, 150);
+</string>
+     </property>
+     <column>
+      <property name="text">
+       <string>Model</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Color</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Rating</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>New Column</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>GPU</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>SSD</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>472</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Save</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>472</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Back</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="laptopform.qrc"/>
+ </resources>
+ <connections/>
+</ui>
