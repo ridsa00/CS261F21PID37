@@ -45,9 +45,9 @@ border top-left radius: 60px</string>
      <property name="geometry">
       <rect>
        <x>360</x>
-       <y>30</y>
+       <y>60</y>
        <width>371</width>
-       <height>341</height>
+       <height>261</height>
       </rect>
      </property>
      <property name="font">
@@ -64,44 +64,13 @@ border top-left radius: 60px</string>
       <string/>
      </property>
     </widget>
-    <widget class="QLabel" name="label_3">
-     <property name="geometry">
-      <rect>
-       <x>370</x>
-       <y>60</y>
-       <width>81</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <family>Lato Black</family>
-       <pointsize>12</pointsize>
-       <weight>75</weight>
-       <bold>true</bold>
-      </font>
-     </property>
-     <property name="text">
-      <string>Enter URL</string>
-     </property>
-    </widget>
-    <widget class="QTextBrowser" name="textBrowser">
-     <property name="geometry">
-      <rect>
-       <x>460</x>
-       <y>50</y>
-       <width>256</width>
-       <height>31</height>
-      </rect>
-     </property>
-    </widget>
     <widget class="QLabel" name="label_4">
      <property name="geometry">
       <rect>
-       <x>390</x>
-       <y>130</y>
-       <width>281</width>
-       <height>20</height>
+       <x>430</x>
+       <y>100</y>
+       <width>231</width>
+       <height>61</height>
       </rect>
      </property>
      <property name="font">
@@ -114,16 +83,16 @@ border top-left radius: 60px</string>
       </font>
      </property>
      <property name="text">
-      <string>             Select Category</string>
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;             Select Category&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
     </widget>
     <widget class="QPushButton" name="laptop_btn">
      <property name="geometry">
       <rect>
        <x>410</x>
-       <y>230</y>
+       <y>210</y>
        <width>75</width>
-       <height>23</height>
+       <height>31</height>
       </rect>
      </property>
      <property name="font">
@@ -143,10 +112,10 @@ background-color: rgb(193, 193, 193);</string>
     <widget class="QPushButton" name="iphone_btn">
      <property name="geometry">
       <rect>
-       <x>630</x>
-       <y>230</y>
+       <x>580</x>
+       <y>210</y>
        <width>75</width>
-       <height>23</height>
+       <height>31</height>
       </rect>
      </property>
      <property name="font">

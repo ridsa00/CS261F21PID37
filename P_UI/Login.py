@@ -93,7 +93,7 @@ class Ui_login_window(object):
 "background-color: rgb(193, 193, 193);")
         self.laptop_btn.setObjectName("laptop_btn")
 
-        self.laptop_btn.clicked.connect(self.open_window2)
+        # self.laptop_btn.clicked.connect(self.open_window2)
         
         self.iphone_btn = QtWidgets.QPushButton(self.widget)
         self.iphone_btn.setGeometry(QtCore.QRect(630, 230, 75, 23))
