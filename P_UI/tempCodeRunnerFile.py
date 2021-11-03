@@ -1,0 +1,1 @@
+# df.to_csv('iphone.csv', header=False, mode = 'a' ,index=False, encoding='utf-8')
