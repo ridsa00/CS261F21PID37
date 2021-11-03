@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>MainWindow</class>
- <widget class="QMainWindow" name="MainWindow">
+ <class>iphone_window</class>
+ <widget class="QMainWindow" name="iphone_window">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -161,7 +161,7 @@ border-radius: 30px</string>
       </property>
      </item>
     </widget>
-    <widget class="QPushButton" name="pushButton">
+    <widget class="QPushButton" name="Scrap_btn">
      <property name="geometry">
       <rect>
        <x>290</x>
@@ -291,7 +291,7 @@ border-radius:20px</string>
       </property>
      </column>
     </widget>
-    <widget class="QPushButton" name="pushButton_2">
+    <widget class="QPushButton" name="back_btn">
      <property name="geometry">
       <rect>
        <x>460</x>
@@ -314,7 +314,7 @@ Border-radis: 100px</string>
       <string>Back</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_3">
+    <widget class="QPushButton" name="save_btn">
      <property name="geometry">
       <rect>
        <x>560</x>

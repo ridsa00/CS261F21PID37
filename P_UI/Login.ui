@@ -47,7 +47,7 @@ border top-left radius: 60px</string>
        <x>360</x>
        <y>30</y>
        <width>371</width>
-       <height>361</height>
+       <height>341</height>
       </rect>
      </property>
      <property name="font">
@@ -120,10 +120,10 @@ border top-left radius: 60px</string>
     <widget class="QPushButton" name="laptop_btn">
      <property name="geometry">
       <rect>
-       <x>420</x>
+       <x>410</x>
        <y>230</y>
        <width>75</width>
-       <height>31</height>
+       <height>23</height>
       </rect>
      </property>
      <property name="font">
@@ -140,13 +140,13 @@ background-color: rgb(193, 193, 193);</string>
       <string>Laptops</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="iPhone_btn">
+    <widget class="QPushButton" name="iphone_btn">
      <property name="geometry">
       <rect>
-       <x>610</x>
+       <x>630</x>
        <y>230</y>
        <width>75</width>
-       <height>31</height>
+       <height>23</height>
       </rect>
      </property>
      <property name="font">
@@ -160,6 +160,24 @@ background-color: rgb(193, 193, 193);</string>
      </property>
      <property name="text">
       <string>iPhone</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>670</x>
+       <y>370</y>
+       <width>691</width>
+       <height>571</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-image: url(:/images/P-638079-u9e2a6JrTf-1.jpg);
+border-color: rgb(198, 198, 198);
+border-image: url(:/images/P-638079-u9e2a6JrTf-1.jpg);</string>
+     </property>
+     <property name="text">
+      <string/>
      </property>
     </widget>
    </widget>
