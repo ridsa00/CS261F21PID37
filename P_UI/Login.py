@@ -158,5 +158,6 @@ if __name__ == "__main__":
     ui = Ui_login_window()
     ui.setupUi(login_window)
     login_window.show()
-    file2.Laptop_window.dataload()
+    file2.Laptop_window.datahead()
+    file1.iphone_window.datahead()
     sys.exit(app.exec_())

@@ -145,6 +145,23 @@ class Ui_Laptop_window(object):
         self.retranslateUi(Laptop_window)
         QtCore.QMetaObject.connectSlotsByName(Laptop_window)
 
+    def load_File(self):
+        try:            
+            self.all_data = pd.read_csv('macbook.csv')
+        except:
+            print("An Error Occured!")
+    def datahead(self):
+        self.load_File()    
+        NumRows = 15000
+        self.tableWidget.setColumnCount(len(self.all_data.columns))
+        self.tableWidget.setRowCount(NumRows)
+        self.tableWidget.setHorizontalHeaderLabels(self.all_data.columns)
+        for i in range(NumRows):
+                for j in range(len(self.all_data.columns)):
+                        self.tableWidget.setItem(i, j, QtWidgets.QTableWidgetItem(str(self.all_data.iat[i, j])))
+        self.tableWidget.resizeColumnsToContents()
+        self.tableWidget.resizeRowsToContents()    
+
     def retranslateUi(self, Laptop_window):
         _translate = QtCore.QCoreApplication.translate
         Laptop_window.setWindowTitle(_translate("Laptop_window", "MainWindow"))

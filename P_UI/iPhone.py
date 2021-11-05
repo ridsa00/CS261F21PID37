@@ -183,6 +183,23 @@ class Ui_iphone_window(object):
         item.setText(_translate("iphone_window", "Version"))
         self.back_btn.setText(_translate("iphone_window", "Back"))
         self.save_btn.setText(_translate("iphone_window", "Save"))
+    
+    def load_File(self):
+        try:            
+            self.all_data = pd.read_csv('iphone.csv')
+        except:
+            print("An Error Occured!")
+    def datahead(self):
+        self.load_File()    
+        NumRows = 15000
+        self.tableWidget.setColumnCount(len(self.all_data.columns))
+        self.tableWidget.setRowCount(NumRows)
+        self.tableWidget.setHorizontalHeaderLabels(self.all_data.columns)
+        for i in range(NumRows):
+                for j in range(len(self.all_data.columns)):
+                        self.tableWidget.setItem(i, j, QtWidgets.QTableWidgetItem(str(self.all_data.iat[i, j])))
+        self.tableWidget.resizeColumnsToContents()
+        self.tableWidget.resizeRowsToContents()   
 
         
 # import Iphone_rc
