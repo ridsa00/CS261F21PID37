@@ -183,6 +183,8 @@ class Ui_iphone_window(object):
         item.setText(_translate("iphone_window", "Version"))
         self.back_btn.setText(_translate("iphone_window", "Back"))
         self.save_btn.setText(_translate("iphone_window", "Save"))
+
+        
 # import Iphone_rc
 
 

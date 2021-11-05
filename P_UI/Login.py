@@ -11,6 +11,8 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 import iPhone as file1
 import laptops as file2
+import algorithm as file3
+
 
 class Ui_login_window(object):
     def open_window2(self):
@@ -145,10 +147,9 @@ class Ui_login_window(object):
         self.window= QtWidgets.QWidget()
         self.ui=file2.Ui_Laptop_window()
         self.ui.setupUi(self.window)
-        self.window.show()    
+        self.window.show()  
 
 # import form1_rc
-
 
 if __name__ == "__main__":
     import sys
@@ -157,4 +158,5 @@ if __name__ == "__main__":
     ui = Ui_login_window()
     ui.setupUi(login_window)
     login_window.show()
+    file2.Laptop_window.dataload()
     sys.exit(app.exec_())
